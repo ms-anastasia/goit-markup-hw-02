@@ -81,7 +81,8 @@ ul {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.9px;
+  line-height: 1.87;
+  cursor: pointer;
 }
 .hidden-header {
   color: #ffffff;
@@ -142,6 +143,7 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
+  cursor: pointer;
 }
 .portfolio-title {
   color: var(--secondary-text-colour);
