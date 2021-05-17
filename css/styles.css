@@ -44,6 +44,9 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.nav-item.active {
+  color: var(--accent-colour);
+}
 .nav-item:hover,
 .nav-item:focus {
   color: var(--accent-colour);
