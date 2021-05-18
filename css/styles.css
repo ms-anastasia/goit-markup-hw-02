@@ -11,6 +11,7 @@
   --footer-text-colour: rgba(255, 255, 255, 0, 6);
   --primary-white-colour: #ffffff;
   --footer-background: #2f303a;
+  --background-color: #f5f4fa;
 }
 body {
   background-color: var(--primary-white-colour);
@@ -86,6 +87,7 @@ ul {
   font-size: 16px;
   line-height: 1.87;
   cursor: pointer;
+  border: transparent;
 }
 .hidden-header {
   color: #ffffff;
@@ -103,6 +105,9 @@ ul {
   line-height: 1.14;
   text-transform: uppercase;
   /* Team */
+}
+.section.team {
+  background-color: var(--background-color);
 }
 .team-member {
   color: var(--secondary-text-colour);
@@ -147,6 +152,11 @@ ul {
   font-size: 16px;
   line-height: 1.6;
   cursor: pointer;
+  border: transparent;
+}
+.filter.all {
+  color: var(--primary-white-colour);
+  background-color: var(--accent-colour);
 }
 .portfolio-title {
   color: var(--secondary-text-colour);
